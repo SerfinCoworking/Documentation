@@ -1,37 +1,70 @@
-## Welcome to GitHub Pages
+## Welcome to SerfinCoworking documentation
 
-You can use the [editor on GitHub](https://github.com/SerfinCoworking/Documentation/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Hi there, here we'll put some information about the proccess
+about the development and putting into production of different applications.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We recommend using the following setup:
 
-### Markdown
+- Ubuntu 18.04 LTS
+- Google Chrome
+- npm 6.13.4 (npm -v)
+- node 12.16.1 (node -v)
+- Angular 9.0.7 (ng version)
+- MongoDB 4.2
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Steps to dev NodeJs API
+
+This steps are to start a NodeJs API.
+
+#### 1. Init project
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+$ npm init --yes
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### 2. Typescript
 
-### Jekyll Themes
+```markdown
+$ npx tsc --init 
+```
+this will generate tsconfig.json
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SerfinCoworking/Documentation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### 3. Installing useful packages
 
-### Support or Contact
+- <strong>[Express:](https://www.npmjs.com/package/express)</strong> is the most popular Node web framework, and is the underlying library for a number of other popular Node web frameworks. There are libraries to work with cookies, sessions, user logins, URL parameters, POST data, security headers, and many more.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```markdown
+$ npm install express --save
+```
+
+- <strong>[Morgan:](https://www.npmjs.com/package/morgan)</strong> is a great logging tool that anyone who works with HTTP servers in Node.js should learn to use. morgan is a middleware that allows us to easily log requests, errors, and more to the console. It’s easy to use, but still powerful and customizable.
+
+```markdown
+npm install morgan --save
+```
+- <strong>[Cors:](https://www.npmjs.com/package/cors)</strong> is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+
+```markdown
+$ npm install cors --save
+```
+
+- <strong>[Helmet:](https://www.npmjs.com/package/helmet)</strong>  is a collection of 12 smaller middleware functions that set HTTP response headers.
+
+```markdown
+$ npm install helmet --save
+```
+
+- <strong>[Compression:](https://www.npmjs.com/package/compression)</strong> The middleware will attempt to compress response bodies for all request that traverse through the middleware, based on the given options.
+
+#### 4. Developmnet dependencies
+
+Install [nodemon](https://www.npmjs.com/package/nodemon), a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+```markdown
+$ npm install --save-dev nodemon
+```
+
+### Contact
+Email: eugenio.gomez@serfin.tech
+
+You can post here all what you think is important to know!
