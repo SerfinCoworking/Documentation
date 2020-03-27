@@ -1,6 +1,8 @@
 ## Welcome to SerfinCoworking documentation
 
-<h2><a href="/commands/">Useful commands</a></h2>
+### [Useful commands](https://serfincoworking.github.io/Documentation/commands/)
+
+### [Material doc](https://serfincoworking.github.io/Documentation/material/)
 
 Hi there, here we'll put some information about the proccess
 about the development and putting into production of different applications.
