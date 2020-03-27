@@ -1,3 +1,5 @@
+<h2><a href="/commands/">Useful commands</a></h2>
+
 ## Welcome to SerfinCoworking documentation
 
 Hi there, here we'll put some information about the proccess
