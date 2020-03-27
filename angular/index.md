@@ -1,7 +1,7 @@
 ---
 layout: default
-title: commands
+title: angular
 ---
 
-Here we'll put some useful commands
+- ### [CRUD Angular 7](https://www.positronx.io/mean-stack-tutorial-angular-7-crud-bootstrap/)
 
