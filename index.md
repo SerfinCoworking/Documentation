@@ -4,6 +4,8 @@
 
 - ### [Material doc](https://serfincoworking.github.io/Documentation/material/)
 
+- ### [Angular doc](https://serfincoworking.github.io/Documentation/angular/)
+
 - ### [Setup environments](https://serfincoworking.github.io/Documentation/setup_environments/)
 
 ### Contact
