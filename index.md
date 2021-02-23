@@ -10,7 +10,10 @@
 
 - ### [Setup environments](https://serfincoworking.github.io/Documentation/setup_environments/)
 
+- ### [Useful PostgreSQL](https://serfincoworking.github.io/Documentation/useful_postgresql/)
+
 ### Contact
 Email: eugenio.gomez@serfin.tech
+Email: paul.ibaceta@serfin.tech
 
 You can post here all what you think is important to know!
